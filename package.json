@@ -1,0 +1,64 @@
+{
+  "name": "amazon-clone",
+  "version": "1.0.0",
+  "description": "A full-featured Amazon Clone built with Next.js, Redux Toolkit, Firebase, Stripe, and Tailwind CSS",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.0.13",
+    "@reduxjs/toolkit": "1.5.0",
+    "@stripe/stripe-js": "^1.44.1",
+    "@tailwindcss/line-clamp": "^0.2.0",
+    "axios": "^1.2.0",
+    "firebase": "8.8.1",
+    "firebase-admin": "9.11.1",
+    "micro": "^10.0.1",
+    "moment": "^2.29.4",
+    "next": "^13.4.13",
+    "next-auth": "^4.17.0",
+    "react": "^18.2.0",
+    "react-currency-formatter": "^1.1.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "7.2.2",
+    "react-responsive-carousel": "^3.2.23",
+    "stripe": "^11.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ragini-pandey/amazon-clone.git"
+  },
+  "author": "Ragini Pandey pandeyragini55@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "amazon clone",
+    "nextjs",
+    "react",
+    "redux toolkit",
+    "firebase",
+    "stripe",
+    "tailwind css",
+    "ecommerce",
+    "full stack project",
+    "mern stack",
+    "next-auth",
+    "frontend developer",
+    "react project",
+    "javascript",
+    "typescript",
+    "responsive design",
+    "firebase authentication",
+    "stripe payments",
+    "nextjs ecommerce",
+    "nextjs project",
+    "full stack developer"
+  ]
+}
