@@ -21,9 +21,26 @@ export default function Home({ products }) {
 
 export async function getServerSideProps(context) {
   const session = await getSession(context);
-  const products = await fetch("https://fakestoreapi.com/products").then(
-    (res) => res.json()
-  );
+
+  let products = [];
+
+  try {
+    const res = await fetch("https://fakestoreapi.com/products");
+
+    const contentType = res.headers.get("content-type") || "";
+
+    if (!res.ok || !contentType.includes("application/json")) {
+      console.error("FakeStore API error:", {
+        status: res.status,
+        contentType,
+      });
+    } else {
+      products = await res.json();
+    }
+  } catch (err) {
+    console.error("Error fetching products from FakeStore:", err);
+  }
+
   return {
     props: {
       products,
