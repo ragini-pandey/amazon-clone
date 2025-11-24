@@ -2,7 +2,18 @@ import { buffer } from "micro";
 import * as admin from "firebase-admin";
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
-const serviceAccount = require("../../../permissions.json");
+const rawServiceAccount = process.env.SERVICE_ACCOUNT_JSON;
+
+if (!rawServiceAccount) {
+   throw new Error("Missing SERVICE_ACCOUNT_JSON env variable");
+}
+
+const serviceAccount = JSON.parse(rawServiceAccount);
+
+// Fix newline escaping in private_key
+if (serviceAccount.private_key) {
+   serviceAccount.private_key = serviceAccount.private_key.replace(/\\n/g, "\n");
+}
 
 const app = !admin.apps.length
    ? admin.initializeApp({
