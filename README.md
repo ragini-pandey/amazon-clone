@@ -49,11 +49,9 @@ It provides a seamless shopping experience with authentication, cart management,
 
 ## 🖼️ Screenshots
 
-| Home Page | Checkout | Orders |
-|------------|-----------|---------|
-| ![Home](./screenshots/home.png) | ![Checkout](./screenshots/checkout.png) | ![Orders](./screenshots/orders.png) |
-
-> 📸 *Place screenshots inside a `/screenshots` folder in your repo to display them here.*
+| Home Page 1 | Home Page 2 | Checkout | Payment |
+|-------------|-------------|----------|---------|
+| ![Home1](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/home1.png) | ![Home2](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/home2.png) | ![Checkout](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/checkout.png) | ![Payment](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/payment.png) |
 
 ---
 
