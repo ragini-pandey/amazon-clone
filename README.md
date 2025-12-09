@@ -49,9 +49,17 @@ It provides a seamless shopping experience with authentication, cart management,
 
 ## 🖼️ Screenshots
 
-| Home Page 1 | Home Page 2 | Checkout | Payment |
-|-------------|-------------|----------|---------|
-| ![Home1](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/home1.png) | ![Home2](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/home2.png) | ![Checkout](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/checkout.png) | ![Payment](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/payment.png) |
+### 🏠 Home Page 1
+![Home1](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/home1.png)
+
+### 🏠 Home Page 2
+![Home2](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/home2.png)
+
+### 🛒 Checkout
+![Checkout](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/checkout.png)
+
+### 💳 Payment
+![Payment](https://raw.githubusercontent.com/ragini-pandey/amazon-clone/master/public/payment.png)
 
 ---
 
